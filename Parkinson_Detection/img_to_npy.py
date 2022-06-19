@@ -20,7 +20,7 @@ for images in img_list:
     img = Image.open(cur_img_path)
     np_array = asarray(img)
     
-    save(os.path.join(np_dir, images+'.npy'), np_array)
+    save(os.path.join(np_dir, name+'.npy'), np_array)
     print(np_array)
 
 
