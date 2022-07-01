@@ -17,7 +17,7 @@ img_list = os.listdir(img_path)
 
 
 
-augumented_folder = os.path.join(cur_dir,'spiral')
+augumented_folder = os.path.join(cur_dir,'spiral_Augument')
 
 if not os.path.exists(augumented_folder):
     os.makedirs(augumented_folder)
@@ -39,7 +39,7 @@ for images in img_list:
     augumented_train_images = 1
     augumented_test_images = 1
 
-    augumented_train = os.path.join(cur_dir, 'spiral/parkinson/')
+    augumented_train = os.path.join(cur_dir, 'spiral_Augument/parkinson/')
     print(augumented_train)
     if not os.path.exists(augumented_train):
         os.makedirs(augumented_train)
@@ -50,7 +50,7 @@ for images in img_list:
 
     for batch in data.flow(img_array, batch_size=1, save_to_dir= augumented_train, save_prefix=name, save_format='jpg'):
         augumented_train_images += 1
-        if augumented_train_images > 50 :
+        if augumented_train_images > 300 :
             break
     
     # for batch in data.flow(img_array, batch_size=1, save_to_dir= augumented_test, save_prefix=name, save_format='jpg'):
