@@ -1,2 +1,3 @@
 # Projects
-Crazy Stuffs :)
+
+- Parkinson's Disease Detection with Image Classification
