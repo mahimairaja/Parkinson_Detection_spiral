@@ -10,6 +10,13 @@
 
 This is the trial & Error project repository of the team 7 for National University of Singapore, GAIP.
 
+### Install the required libraries :
+    pip install pandas
+    pip install numpy
+    pip install tensorflow
+    pip install keras
+    pip install open-cv
+
 ## Technologies
 
 * [Python 3](https://www.python.org)
