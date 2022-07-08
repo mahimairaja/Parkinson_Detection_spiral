@@ -1,3 +1,3 @@
 # Projects
 
-- Parkinson's Disease Detection with Image Classification
+- Parkinson's Disease Detection with binary Image Classification
